@@ -1,0 +1,22 @@
+#These are the files and directories that should be ignored by Git in this project. This includes virtual environments, Python cache files, sensitive information, and IDE settings.
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache (Προσωρινά αρχεία που φτιάχνει η Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Αρχεία με κωδικούς και ρυθμίσεις (ΚΡΙΣΙΜΟ ΓΙΑ ΤΟ AZURE)
+.env
+auth.json
+secrets.txt
+
+# Ρυθμίσεις του VS Code (προαιρετικό, αλλά προτείνεται)
+.vscode/
+
+# Αρχεία συστήματος
+.DS_Store
+Thumbs.db
